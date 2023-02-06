@@ -1,0 +1,291 @@
+2022-06-23 08:41:48,462 P11898 INFO Using GPU...
+2022-06-23 08:41:48,463 P11898 INFO ^^^^^^^^^^ Current Model:hades, 45e4c981 ^^^^^^^^^^
+2022-06-23 08:41:48,463 P11898 INFO Load from ../pkls/
+2022-06-23 08:41:51,596 P11898 INFO 118 tempaltes are found.
+2022-06-23 08:41:51,596 P11898 INFO loading FastText object from ../trained_wv/fasttext-32.model
+2022-06-23 08:41:51,597 P11898 INFO loading wv recursively from ../trained_wv/fasttext-32.model.wv.* with mmap=None
+2022-06-23 08:41:51,597 P11898 INFO loading vectors_ngrams from ../trained_wv/fasttext-32.model.wv.vectors_ngrams.npy with mmap=None
+2022-06-23 08:41:51,707 P11898 INFO setting ignored attribute vectors to None
+2022-06-23 08:41:51,707 P11898 INFO setting ignored attribute buckets_word to None
+2022-06-23 08:41:51,741 P11898 INFO setting ignored attribute cum_table to None
+2022-06-23 08:41:51,751 P11898 INFO FastText lifecycle event {'fname': '../trained_wv/fasttext-32.model', 'datetime': '2022-06-23T08:41:51.749999', 'gensim': '4.2.0', 'python': '3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]', 'platform': 'Linux-4.15.0-176-generic-x86_64-with-debian-buster-sid', 'event': 'loaded'}
+2022-06-23 08:41:51,773 P11898 INFO Transforming train data.
+2022-06-23 08:47:10,936 P11898 INFO Transforming unlabel train data.
+2022-06-23 08:50:56,511 P11898 INFO Transforming test data.
+2022-06-23 08:50:56,702 P11898 INFO 0 new templates show.
+2022-06-23 08:53:53,090 P11898 INFO Log loaded done!
+2022-06-23 08:53:53,513 P11898 INFO KPI loaded done!
+2022-06-23 08:53:54,159 P11898 INFO Known word number: 329
+2022-06-23 08:55:20,754 P11898 INFO Epoch 1/50, training loss: 0.49637 [84.06s]
+2022-06-23 08:57:21,618 P17355 INFO Using GPU...
+2022-06-23 08:57:21,618 P17355 INFO ^^^^^^^^^^ Current Model:hades, 45e4c981 ^^^^^^^^^^
+2022-06-23 08:57:21,618 P17355 INFO Load from ../pkls/
+2022-06-23 08:57:25,154 P17355 INFO 118 tempaltes are found.
+2022-06-23 08:57:25,155 P17355 INFO loading FastText object from ../trained_wv/fasttext-32.model
+2022-06-23 08:57:25,156 P17355 INFO loading wv recursively from ../trained_wv/fasttext-32.model.wv.* with mmap=None
+2022-06-23 08:57:25,156 P17355 INFO loading vectors_ngrams from ../trained_wv/fasttext-32.model.wv.vectors_ngrams.npy with mmap=None
+2022-06-23 08:57:25,274 P17355 INFO setting ignored attribute vectors to None
+2022-06-23 08:57:25,275 P17355 INFO setting ignored attribute buckets_word to None
+2022-06-23 08:57:25,304 P17355 INFO setting ignored attribute cum_table to None
+2022-06-23 08:57:25,313 P17355 INFO FastText lifecycle event {'fname': '../trained_wv/fasttext-32.model', 'datetime': '2022-06-23T08:57:25.312279', 'gensim': '4.2.0', 'python': '3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]', 'platform': 'Linux-4.15.0-176-generic-x86_64-with-debian-buster-sid', 'event': 'loaded'}
+2022-06-23 08:57:25,334 P17355 INFO Transforming train data.
+2022-06-23 09:02:39,022 P17355 INFO Transforming unlabel train data.
+2022-06-23 09:06:37,907 P17355 INFO Transforming test data.
+2022-06-23 09:06:38,136 P17355 INFO 0 new templates show.
+2022-06-23 09:09:34,293 P17355 INFO Log loaded done!
+2022-06-23 09:09:34,726 P17355 INFO KPI loaded done!
+2022-06-23 09:09:35,349 P17355 INFO Known word number: 329
+2022-06-23 09:11:43,606 P17355 INFO Epoch 1/50, training loss: 0.49637 [125.35s]
+2022-06-23 09:12:17,119 P17355 INFO Train -- f1:0.7060,rc:0.5580,pc:0.9607,time:33.3339,loss:0.3837
+2022-06-23 09:12:34,923 P17355 INFO Test -- f1:0.7245,rc:0.6076,pc:0.8970,time:17.7116,loss:0.3252
+2022-06-23 09:14:39,091 P17355 INFO Epoch 2/50, training loss: 0.37013 [124.15s]
+2022-06-23 09:15:12,446 P17355 INFO Train -- f1:0.7792,rc:0.6598,pc:0.9514,time:33.2042,loss:0.3479
+2022-06-23 09:15:30,230 P17355 INFO Test -- f1:0.7834,rc:0.7071,pc:0.8782,time:17.6770,loss:0.2096
+2022-06-23 09:17:34,567 P17355 INFO Epoch 3/50, training loss: 0.34345 [124.32s]
+2022-06-23 09:18:07,644 P17355 INFO Train -- f1:0.7777,rc:0.6639,pc:0.9385,time:32.8709,loss:0.3204
+2022-06-23 09:18:25,566 P17355 INFO Test -- f1:0.7273,rc:0.7342,pc:0.7206,time:17.8542,loss:0.3084
+2022-06-23 09:20:30,963 P17355 INFO Epoch 4/50, training loss: 0.33236 [125.40s]
+2022-06-23 09:21:03,263 P17355 INFO Train -- f1:0.7849,rc:0.6598,pc:0.9685,time:32.1015,loss:0.3060
+2022-06-23 09:21:21,123 P17355 INFO Test -- f1:0.7881,rc:0.7094,pc:0.8864,time:17.7293,loss:0.2741
+2022-06-23 09:23:27,354 P17355 INFO Epoch 5/50, training loss: 0.32169 [126.21s]
+2022-06-23 09:23:59,781 P17355 INFO Train -- f1:0.7938,rc:0.6772,pc:0.9589,time:32.1618,loss:0.2967
+2022-06-23 09:24:17,845 P17355 INFO Test -- f1:0.7821,rc:0.7195,pc:0.8566,time:18.0050,loss:0.2909
+2022-06-23 09:26:23,443 P17355 INFO Epoch 6/50, training loss: 0.30992 [125.60s]
+2022-06-23 09:26:56,421 P17355 INFO Train -- f1:0.7971,rc:0.6874,pc:0.9485,time:32.7103,loss:0.2967
+2022-06-23 09:27:13,965 P17355 INFO Test -- f1:0.7966,rc:0.7321,pc:0.8736,time:17.4050,loss:0.3195
+2022-06-23 09:29:19,488 P17355 INFO Epoch 7/50, training loss: 0.30770 [125.50s]
+2022-06-23 09:29:52,839 P17355 INFO Train -- f1:0.8085,rc:0.7231,pc:0.9168,time:33.0500,loss:0.2876
+2022-06-23 09:30:10,032 P17355 INFO Test -- f1:0.7999,rc:0.7713,pc:0.8307,time:17.0557,loss:0.2846
+2022-06-23 09:32:14,192 P17355 INFO Epoch 8/50, training loss: 0.30250 [124.14s]
+2022-06-23 09:32:47,459 P17355 INFO Train -- f1:0.8095,rc:0.7068,pc:0.9472,time:33.0420,loss:0.2813
+2022-06-23 09:33:05,353 P17355 INFO Test -- f1:0.7731,rc:0.7624,pc:0.7841,time:17.7583,loss:0.2682
+2022-06-23 09:35:08,734 P17355 INFO Epoch 9/50, training loss: 0.29877 [123.38s]
+2022-06-23 09:35:42,061 P17355 INFO Train -- f1:0.8132,rc:0.7192,pc:0.9354,time:33.1780,loss:0.2799
+2022-06-23 09:36:00,132 P17355 INFO Test -- f1:0.7996,rc:0.7730,pc:0.8281,time:17.9345,loss:0.2768
+2022-06-23 09:38:05,907 P17355 INFO Epoch 10/50, training loss: 0.29699 [125.77s]
+2022-06-23 09:38:39,721 P17355 INFO Train -- f1:0.8023,rc:0.6785,pc:0.9813,time:33.6973,loss:0.2777
+2022-06-23 09:38:57,927 P17355 INFO Test -- f1:0.8017,rc:0.7295,pc:0.8898,time:18.1514,loss:0.2540
+2022-06-23 09:41:04,341 P17355 INFO Epoch 11/50, training loss: 0.29271 [126.40s]
+2022-06-23 09:41:38,258 P17355 INFO Train -- f1:0.8086,rc:0.6953,pc:0.9660,time:33.8056,loss:0.2719
+2022-06-23 09:41:56,547 P17355 INFO Test -- f1:0.8126,rc:0.7545,pc:0.8805,time:18.2338,loss:0.2559
+2022-06-23 09:44:03,099 P17355 INFO Epoch 12/50, training loss: 0.28496 [126.53s]
+2022-06-23 09:44:37,047 P17355 INFO Train -- f1:0.8273,rc:0.7565,pc:0.9126,time:33.8345,loss:0.2676
+2022-06-23 09:44:55,329 P17355 INFO Test -- f1:0.8245,rc:0.8072,pc:0.8427,time:18.2136,loss:0.2869
+2022-06-23 09:47:01,621 P17355 INFO Epoch 13/50, training loss: 0.28069 [126.28s]
+2022-06-23 09:47:35,531 P17355 INFO Train -- f1:0.8236,rc:0.7112,pc:0.9782,time:33.7892,loss:0.2568
+2022-06-23 09:47:53,916 P17355 INFO Test -- f1:0.8279,rc:0.7730,pc:0.8911,time:18.2373,loss:0.2415
+2022-06-23 09:50:00,120 P17355 INFO Epoch 14/50, training loss: 0.27822 [126.18s]
+2022-06-23 09:50:33,582 P17355 INFO Train -- f1:0.8286,rc:0.7292,pc:0.9594,time:33.3194,loss:0.2534
+2022-06-23 09:50:51,736 P17355 INFO Test -- f1:0.8218,rc:0.7819,pc:0.8660,time:18.0912,loss:0.2444
+2022-06-23 09:52:57,888 P17355 INFO Epoch 15/50, training loss: 0.27835 [126.15s]
+2022-06-23 09:53:31,271 P17355 INFO Train -- f1:0.8213,rc:0.7071,pc:0.9794,time:33.1929,loss:0.2536
+2022-06-23 09:53:49,368 P17355 INFO Test -- f1:0.8138,rc:0.7886,pc:0.8406,time:17.9588,loss:0.2414
+2022-06-23 09:55:56,211 P17355 INFO Epoch 16/50, training loss: 0.27389 [126.84s]
+2022-06-23 09:56:28,126 P17355 INFO Train -- f1:0.8328,rc:0.7436,pc:0.9462,time:31.7106,loss:0.2498
+2022-06-23 09:56:46,363 P17355 INFO Test -- f1:0.8176,rc:0.8319,pc:0.8038,time:18.1761,loss:0.2334
+2022-06-23 09:58:54,335 P17355 INFO Epoch 17/50, training loss: 0.27271 [127.97s]
+2022-06-23 09:59:24,938 P17355 INFO Train -- f1:0.8244,rc:0.7096,pc:0.9834,time:30.3534,loss:0.2517
+2022-06-23 09:59:42,830 P17355 INFO Test -- f1:0.8243,rc:0.7801,pc:0.8737,time:17.8348,loss:0.2450
+2022-06-23 10:01:51,378 P17355 INFO Epoch 18/50, training loss: 0.26790 [128.55s]
+2022-06-23 10:02:22,123 P17355 INFO Train -- f1:0.8373,rc:0.7427,pc:0.9595,time:30.4722,loss:0.2406
+2022-06-23 10:02:38,562 P17355 INFO Test -- f1:0.8369,rc:0.8051,pc:0.8713,time:16.3502,loss:0.2346
+2022-06-23 10:04:46,760 P17355 INFO Epoch 19/50, training loss: 0.26685 [128.18s]
+2022-06-23 10:05:18,677 P17355 INFO Train -- f1:0.8402,rc:0.7658,pc:0.9306,time:31.6933,loss:0.2454
+2022-06-23 10:05:34,849 P17355 INFO Test -- f1:0.7666,rc:0.8578,pc:0.6930,time:16.0352,loss:0.3128
+2022-06-23 10:07:42,353 P17355 INFO Epoch 20/50, training loss: 0.26693 [127.50s]
+2022-06-23 10:08:15,875 P17355 INFO Train -- f1:0.8291,rc:0.7178,pc:0.9811,time:33.3251,loss:0.2453
+2022-06-23 10:08:32,381 P17355 INFO Test -- f1:0.8321,rc:0.7836,pc:0.8870,time:16.3682,loss:0.2190
+2022-06-23 10:10:38,788 P17355 INFO Epoch 21/50, training loss: 0.26301 [126.40s]
+2022-06-23 10:11:12,431 P17355 INFO Train -- f1:0.8356,rc:0.7318,pc:0.9737,time:33.5121,loss:0.2404
+2022-06-23 10:11:30,298 P17355 INFO Test -- f1:0.8403,rc:0.8022,pc:0.8822,time:17.7308,loss:0.2580
+2022-06-23 10:13:36,415 P17355 INFO Epoch 22/50, training loss: 0.26603 [126.10s]
+2022-06-23 10:14:10,199 P17355 INFO Train -- f1:0.8395,rc:0.7472,pc:0.9578,time:33.6175,loss:0.2435
+2022-06-23 10:14:28,258 P17355 INFO Test -- f1:0.7693,rc:0.8198,pc:0.7247,time:17.9946,loss:0.3237
+2022-06-23 10:16:33,770 P17355 INFO Epoch 23/50, training loss: 0.26102 [125.51s]
+2022-06-23 10:17:07,609 P17355 INFO Train -- f1:0.8372,rc:0.7394,pc:0.9648,time:33.6062,loss:0.2388
+2022-06-23 10:17:25,692 P17355 INFO Test -- f1:0.8350,rc:0.8069,pc:0.8652,time:18.0272,loss:0.2777
+2022-06-23 10:19:31,273 P17355 INFO Epoch 24/50, training loss: 0.26077 [125.58s]
+2022-06-23 10:20:04,833 P17355 INFO Train -- f1:0.8429,rc:0.7475,pc:0.9662,time:33.3789,loss:0.2349
+2022-06-23 10:20:22,756 P17355 INFO Test -- f1:0.8410,rc:0.8104,pc:0.8740,time:17.8665,loss:0.2492
+2022-06-23 10:22:28,140 P17355 INFO Epoch 25/50, training loss: 0.25880 [125.37s]
+2022-06-23 10:23:01,908 P17355 INFO Train -- f1:0.8410,rc:0.7436,pc:0.9677,time:33.6306,loss:0.2379
+2022-06-23 10:23:20,088 P17355 INFO Test -- f1:0.8361,rc:0.8134,pc:0.8602,time:18.0805,loss:0.2355
+2022-06-23 10:25:26,566 P17355 INFO Epoch 26/50, training loss: 0.25771 [126.48s]
+2022-06-23 10:26:00,186 P17355 INFO Train -- f1:0.8347,rc:0.7338,pc:0.9678,time:33.3907,loss:0.2388
+2022-06-23 10:26:18,447 P17355 INFO Test -- f1:0.7734,rc:0.8066,pc:0.7427,time:18.1974,loss:0.2995
+2022-06-23 10:28:23,460 P17355 INFO Epoch 27/50, training loss: 0.25675 [125.01s]
+2022-06-23 10:28:57,181 P17355 INFO Train -- f1:0.8489,rc:0.7696,pc:0.9464,time:33.5390,loss:0.2380
+2022-06-23 10:29:15,321 P17355 INFO Test -- f1:0.8525,rc:0.8516,pc:0.8534,time:18.0798,loss:0.2893
+2022-06-23 10:31:21,344 P17355 INFO Epoch 28/50, training loss: 0.25475 [126.00s]
+2022-06-23 10:31:54,903 P17355 INFO Train -- f1:0.8484,rc:0.7630,pc:0.9553,time:33.3785,loss:0.2307
+2022-06-23 10:32:13,192 P17355 INFO Test -- f1:0.8560,rc:0.8487,pc:0.8634,time:18.1809,loss:0.2596
+2022-06-23 10:34:20,055 P17355 INFO Epoch 29/50, training loss: 0.25490 [126.85s]
+2022-06-23 10:34:52,177 P17355 INFO Train -- f1:0.8421,rc:0.7432,pc:0.9715,time:32.0100,loss:0.2300
+2022-06-23 10:35:10,578 P17355 INFO Test -- f1:0.8386,rc:0.8037,pc:0.8767,time:18.3402,loss:0.2100
+2022-06-23 10:37:19,055 P17355 INFO Epoch 30/50, training loss: 0.25336 [128.48s]
+2022-06-23 10:37:49,703 P17355 INFO Train -- f1:0.8478,rc:0.7688,pc:0.9448,time:30.5100,loss:0.2300
+2022-06-23 10:38:07,745 P17355 INFO Test -- f1:0.8476,rc:0.8331,pc:0.8625,time:17.9784,loss:0.2404
+2022-06-23 10:40:17,271 P17355 INFO Epoch 31/50, training loss: 0.25355 [129.52s]
+2022-06-23 10:40:47,430 P17355 INFO Train -- f1:0.8474,rc:0.7564,pc:0.9632,time:29.9108,loss:0.2244
+2022-06-23 10:41:04,470 P17355 INFO Test -- f1:0.8408,rc:0.8257,pc:0.8565,time:16.9819,loss:0.2441
+2022-06-23 10:43:14,376 P17355 INFO Epoch 32/50, training loss: 0.25179 [129.90s]
+2022-06-23 10:43:45,722 P17355 INFO Train -- f1:0.8456,rc:0.7469,pc:0.9745,time:31.0799,loss:0.2277
+2022-06-23 10:44:03,013 P17355 INFO Test -- f1:0.8419,rc:0.8195,pc:0.8654,time:17.1529,loss:0.2058
+2022-06-23 10:46:10,715 P17355 INFO Epoch 33/50, training loss: 0.24879 [127.70s]
+2022-06-23 10:46:42,841 P17355 INFO Train -- f1:0.8501,rc:0.7645,pc:0.9573,time:31.9885,loss:0.2236
+2022-06-23 10:46:59,356 P17355 INFO Test -- f1:0.8500,rc:0.8472,pc:0.8527,time:16.3788,loss:0.2315
+2022-06-23 10:49:06,316 P17355 INFO Epoch 34/50, training loss: 0.24963 [126.96s]
+2022-06-23 10:49:39,785 P17355 INFO Train -- f1:0.8516,rc:0.7646,pc:0.9609,time:33.3490,loss:0.2214
+2022-06-23 10:49:57,000 P17355 INFO Test -- f1:0.8389,rc:0.8325,pc:0.8454,time:17.0951,loss:0.2384
+2022-06-23 10:52:03,293 P17355 INFO Epoch 35/50, training loss: 0.24589 [126.29s]
+2022-06-23 10:52:36,807 P17355 INFO Train -- f1:0.8447,rc:0.7460,pc:0.9734,time:33.3927,loss:0.2269
+2022-06-23 10:52:54,561 P17355 INFO Test -- f1:0.8385,rc:0.8184,pc:0.8596,time:17.6214,loss:0.2583
+2022-06-23 10:55:00,243 P17355 INFO Epoch 36/50, training loss: 0.24679 [125.68s]
+2022-06-23 10:55:33,689 P17355 INFO Train -- f1:0.8508,rc:0.7629,pc:0.9616,time:33.2861,loss:0.2236
+2022-06-23 10:55:51,914 P17355 INFO Test -- f1:0.8437,rc:0.8360,pc:0.8516,time:18.0885,loss:0.2313
+2022-06-23 10:57:57,556 P17355 INFO Epoch 37/50, training loss: 0.24489 [125.64s]
+2022-06-23 10:58:31,023 P17355 INFO Train -- f1:0.8471,rc:0.7585,pc:0.9591,time:33.2368,loss:0.2243
+2022-06-23 10:58:48,929 P17355 INFO Test -- f1:0.8339,rc:0.8278,pc:0.8402,time:17.7713,loss:0.2219
+2022-06-23 11:00:54,219 P17355 INFO Epoch 38/50, training loss: 0.24210 [125.29s]
+2022-06-23 11:01:27,952 P17355 INFO Train -- f1:0.8509,rc:0.7640,pc:0.9600,time:33.5719,loss:0.2222
+2022-06-23 11:01:45,705 P17355 INFO Test -- f1:0.8459,rc:0.8354,pc:0.8566,time:17.6890,loss:0.2165
+2022-06-23 11:03:50,452 P17355 INFO Epoch 39/50, training loss: 0.24509 [124.75s]
+2022-06-23 11:04:24,383 P17355 INFO Train -- f1:0.8476,rc:0.7525,pc:0.9703,time:33.6934,loss:0.2201
+2022-06-23 11:04:42,421 P17355 INFO Test -- f1:0.8446,rc:0.8290,pc:0.8609,time:17.9725,loss:0.2291
+2022-06-23 11:06:47,011 P17355 INFO Epoch 40/50, training loss: 0.24228 [124.59s]
+2022-06-23 11:07:20,459 P17355 INFO Train -- f1:0.8547,rc:0.7780,pc:0.9482,time:33.3222,loss:0.2190
+2022-06-23 11:07:38,616 P17355 INFO Test -- f1:0.8433,rc:0.8705,pc:0.8178,time:18.0371,loss:0.2815
+2022-06-23 11:09:44,270 P17355 INFO Epoch 41/50, training loss: 0.24340 [125.65s]
+2022-06-23 11:10:16,998 P17355 INFO Train -- f1:0.8540,rc:0.7629,pc:0.9700,time:32.5300,loss:0.2149
+2022-06-23 11:10:35,336 P17355 INFO Test -- f1:0.8533,rc:0.8440,pc:0.8628,time:18.2311,loss:0.2363
+2022-06-23 11:12:41,659 P17355 INFO Epoch 42/50, training loss: 0.24027 [126.32s]
+2022-06-23 11:13:13,937 P17355 INFO Train -- f1:0.8510,rc:0.7601,pc:0.9666,time:32.1514,loss:0.2168
+2022-06-23 11:13:32,007 P17355 INFO Test -- f1:0.8380,rc:0.8246,pc:0.8519,time:17.9328,loss:0.2167
+2022-06-23 11:15:39,325 P17355 INFO Epoch 43/50, training loss: 0.24066 [127.32s]
+2022-06-23 11:16:09,723 P17355 INFO Train -- f1:0.8484,rc:0.7573,pc:0.9644,time:30.1318,loss:0.2218
+2022-06-23 11:16:27,428 P17355 INFO Test -- f1:0.7902,rc:0.8316,pc:0.7527,time:17.5662,loss:0.2758
+2022-06-23 11:18:35,823 P17355 INFO Epoch 44/50, training loss: 0.24052 [128.39s]
+2022-06-23 11:19:07,080 P17355 INFO Train -- f1:0.8582,rc:0.7751,pc:0.9612,time:30.9911,loss:0.2110
+2022-06-23 11:19:24,018 P17355 INFO Test -- f1:0.8429,rc:0.8546,pc:0.8316,time:16.8005,loss:0.2367
+2022-06-23 11:21:31,837 P17355 INFO Epoch 45/50, training loss: 0.23893 [127.82s]
+2022-06-23 11:22:04,412 P17355 INFO Train -- f1:0.8559,rc:0.7715,pc:0.9609,time:32.3046,loss:0.2132
+2022-06-23 11:22:21,175 P17355 INFO Test -- f1:0.8566,rc:0.8711,pc:0.8425,time:16.6225,loss:0.2162
+2022-06-23 11:24:27,562 P17355 INFO Epoch 46/50, training loss: 0.23708 [126.36s]
+2022-06-23 11:25:01,075 P17355 INFO Train -- f1:0.8563,rc:0.7660,pc:0.9706,time:33.3910,loss:0.2091
+2022-06-23 11:25:18,250 P17355 INFO Test -- f1:0.8524,rc:0.8452,pc:0.8598,time:17.0383,loss:0.2152
+2022-06-23 11:27:23,895 P17355 INFO Epoch 47/50, training loss: 0.23677 [125.64s]
+2022-06-23 11:27:57,406 P17355 INFO Train -- f1:0.8603,rc:0.7845,pc:0.9524,time:33.3069,loss:0.2051
+2022-06-23 11:28:15,494 P17355 INFO Test -- f1:0.8463,rc:0.8590,pc:0.8340,time:18.0245,loss:0.2271
+2022-06-23 11:30:19,730 P17355 INFO Epoch 48/50, training loss: 0.23519 [124.23s]
+2022-06-23 11:30:53,355 P17355 INFO Train -- f1:0.8625,rc:0.7924,pc:0.9461,time:33.4122,loss:0.2101
+2022-06-23 11:31:11,262 P17355 INFO Test -- f1:0.8483,rc:0.8761,pc:0.8223,time:17.8452,loss:0.2528
+2022-06-23 11:33:16,231 P17355 INFO Epoch 49/50, training loss: 0.23639 [124.97s]
+2022-06-23 11:33:50,114 P17355 INFO Train -- f1:0.8557,rc:0.7638,pc:0.9728,time:33.6787,loss:0.2081
+2022-06-23 11:34:08,303 P17355 INFO Test -- f1:0.8512,rc:0.8434,pc:0.8591,time:18.1272,loss:0.2535
+2022-06-23 11:36:12,754 P17355 INFO Epoch 50/50, training loss: 0.23564 [124.45s]
+2022-06-23 11:36:46,482 P17355 INFO Train -- f1:0.8513,rc:0.7559,pc:0.9742,time:33.5782,loss:0.2248
+2022-06-23 11:37:04,682 P17355 INFO Test -- f1:0.8532,rc:0.8434,pc:0.8632,time:18.0973,loss:0.2027
+2022-06-23 11:37:22,817 P17355 INFO Test -- f1:0.8566,rc:0.8711,pc:0.8425,time:17.9590,loss:0.2162
+2022-06-23 11:37:22,818 P17355 INFO *** Test F1 0.8566 and loss 0.2162 of traning phase 1
+2022-06-23 11:54:00,294 P17355 INFO Epoch 1/50, training loss with real & pseudo labels: 0.13104 [70.90s]
+2022-06-23 11:54:10,695 P17355 INFO Test -- f1:0.8538,rc:0.8622,pc:0.8456,time:10.3431,loss:0.2046
+2022-06-23 11:55:20,939 P17355 INFO Epoch 2/50, training loss with real & pseudo labels: 0.13188 [70.24s]
+2022-06-23 11:55:35,521 P17355 INFO Test -- f1:0.8530,rc:0.8705,pc:0.8363,time:14.5199,loss:0.2362
+2022-06-23 11:57:36,007 P17355 INFO Epoch 3/50, training loss with real & pseudo labels: 0.13064 [120.48s]
+2022-06-23 11:57:53,527 P17355 INFO Test -- f1:0.8540,rc:0.8711,pc:0.8375,time:17.4565,loss:0.2407
+2022-06-23 11:59:53,954 P17355 INFO Epoch 4/50, training loss with real & pseudo labels: 0.13006 [120.43s]
+2022-06-23 12:00:11,767 P17355 INFO Test -- f1:0.8540,rc:0.8687,pc:0.8398,time:17.7535,loss:0.2095
+2022-06-23 12:02:12,129 P17355 INFO Epoch 5/50, training loss with real & pseudo labels: 0.13083 [120.36s]
+2022-06-23 12:02:29,782 P17355 INFO Test -- f1:0.8584,rc:0.8755,pc:0.8420,time:17.5849,loss:0.2380
+2022-06-23 12:04:30,399 P17355 INFO Epoch 6/50, training loss with real & pseudo labels: 0.12901 [120.60s]
+2022-06-23 12:04:47,763 P17355 INFO Test -- f1:0.8554,rc:0.8699,pc:0.8414,time:17.3083,loss:0.2357
+2022-06-23 12:06:47,956 P17355 INFO Epoch 7/50, training loss with real & pseudo labels: 0.12972 [120.19s]
+2022-06-23 12:07:04,902 P17355 INFO Test -- f1:0.8490,rc:0.8531,pc:0.8449,time:16.8828,loss:0.2098
+2022-06-23 12:09:05,895 P17355 INFO Epoch 8/50, training loss with real & pseudo labels: 0.13304 [120.99s]
+2022-06-23 12:09:23,334 P17355 INFO Test -- f1:0.8522,rc:0.8690,pc:0.8360,time:17.3794,loss:0.2358
+2022-06-23 12:11:24,100 P17355 INFO Epoch 9/50, training loss with real & pseudo labels: 0.12938 [120.76s]
+2022-06-23 12:11:41,706 P17355 INFO Test -- f1:0.8509,rc:0.8549,pc:0.8469,time:17.5514,loss:0.2319
+2022-06-23 12:13:41,971 P17355 INFO Epoch 10/50, training loss with real & pseudo labels: 0.12384 [120.26s]
+2022-06-23 12:13:59,713 P17355 INFO Test -- f1:0.8405,rc:0.8749,pc:0.8087,time:17.6859,loss:0.2578
+2022-06-23 12:16:00,002 P17355 INFO Epoch 11/50, training loss with real & pseudo labels: 0.12506 [120.29s]
+2022-06-23 12:16:17,841 P17355 INFO Test -- f1:0.8508,rc:0.8611,pc:0.8408,time:17.7843,loss:0.2298
+2022-06-23 12:18:18,339 P17355 INFO Epoch 12/50, training loss with real & pseudo labels: 0.13250 [120.50s]
+2022-06-23 12:18:35,977 P17355 INFO Test -- f1:0.8423,rc:0.8484,pc:0.8363,time:17.5836,loss:0.2569
+2022-06-23 12:20:35,680 P17355 INFO Epoch 13/50, training loss with real & pseudo labels: 0.12886 [119.70s]
+2022-06-23 12:20:53,720 P17355 INFO Test -- f1:0.8559,rc:0.8675,pc:0.8447,time:17.9642,loss:0.2289
+2022-06-23 12:22:53,713 P17355 INFO Epoch 14/50, training loss with real & pseudo labels: 0.12399 [119.99s]
+2022-06-23 12:23:11,848 P17355 INFO Test -- f1:0.8574,rc:0.8640,pc:0.8510,time:18.0784,loss:0.2172
+2022-06-23 12:25:11,820 P17355 INFO Epoch 15/50, training loss with real & pseudo labels: 0.13116 [119.97s]
+2022-06-23 12:25:30,014 P17355 INFO Test -- f1:0.8532,rc:0.8549,pc:0.8516,time:18.0479,loss:0.1917
+2022-06-23 12:27:29,522 P17355 INFO Epoch 16/50, training loss with real & pseudo labels: 0.12843 [119.51s]
+2022-06-23 12:27:47,474 P17355 INFO Test -- f1:0.8561,rc:0.8664,pc:0.8462,time:17.8909,loss:0.2119
+2022-06-23 12:29:47,181 P17355 INFO Epoch 17/50, training loss with real & pseudo labels: 0.12858 [119.70s]
+2022-06-23 12:30:05,118 P17355 INFO Test -- f1:0.8488,rc:0.8413,pc:0.8565,time:17.8818,loss:0.2110
+2022-06-23 12:32:04,892 P17355 INFO Epoch 18/50, training loss with real & pseudo labels: 0.12582 [119.77s]
+2022-06-23 12:32:23,043 P17355 INFO Test -- f1:0.8515,rc:0.8510,pc:0.8520,time:18.0954,loss:0.2263
+2022-06-23 12:34:22,931 P17355 INFO Epoch 19/50, training loss with real & pseudo labels: 0.12561 [119.89s]
+2022-06-23 12:34:41,036 P17355 INFO Test -- f1:0.8525,rc:0.8584,pc:0.8467,time:18.0496,loss:0.2303
+2022-06-23 12:36:40,749 P17355 INFO Epoch 20/50, training loss with real & pseudo labels: 0.13106 [119.71s]
+2022-06-23 12:36:58,815 P17355 INFO Test -- f1:0.8561,rc:0.8658,pc:0.8466,time:17.9523,loss:0.2385
+2022-06-23 12:38:58,691 P17355 INFO Epoch 21/50, training loss with real & pseudo labels: 0.12629 [119.87s]
+2022-06-23 12:39:16,809 P17355 INFO Test -- f1:0.8471,rc:0.8625,pc:0.8321,time:17.9821,loss:0.2210
+2022-06-23 12:41:16,309 P17355 INFO Epoch 22/50, training loss with real & pseudo labels: 0.12571 [119.50s]
+2022-06-23 12:41:34,399 P17355 INFO Test -- f1:0.8181,rc:0.8684,pc:0.7733,time:18.0163,loss:0.2489
+2022-06-23 12:43:34,368 P17355 INFO Epoch 23/50, training loss with real & pseudo labels: 0.12685 [119.97s]
+2022-06-23 12:43:52,677 P17355 INFO Test -- f1:0.8640,rc:0.8696,pc:0.8585,time:18.1922,loss:0.2018
+2022-06-23 12:45:52,356 P17355 INFO Epoch 24/50, training loss with real & pseudo labels: 0.12798 [119.66s]
+2022-06-23 12:46:10,407 P17355 INFO Test -- f1:0.8448,rc:0.8755,pc:0.8161,time:17.9936,loss:0.2634
+2022-06-23 12:48:08,990 P17355 INFO Epoch 25/50, training loss with real & pseudo labels: 0.12669 [118.58s]
+2022-06-23 12:48:26,984 P17355 INFO Test -- f1:0.8478,rc:0.8590,pc:0.8368,time:17.9390,loss:0.2424
+2022-06-23 12:50:26,232 P17355 INFO Epoch 26/50, training loss with real & pseudo labels: 0.13092 [119.25s]
+2022-06-23 12:50:44,273 P17355 INFO Test -- f1:0.8560,rc:0.8743,pc:0.8385,time:17.9838,loss:0.2258
+2022-06-23 12:52:44,234 P17355 INFO Epoch 27/50, training loss with real & pseudo labels: 0.12230 [119.96s]
+2022-06-23 12:53:02,389 P17355 INFO Test -- f1:0.6960,rc:0.8493,pc:0.5896,time:18.0805,loss:0.3964
+2022-06-23 12:55:01,916 P17355 INFO Epoch 28/50, training loss with real & pseudo labels: 0.12930 [119.53s]
+2022-06-23 12:55:19,932 P17355 INFO Test -- f1:0.8371,rc:0.8534,pc:0.8215,time:17.9609,loss:0.2502
+2022-06-23 12:57:19,756 P17355 INFO Epoch 29/50, training loss with real & pseudo labels: 0.12563 [119.82s]
+2022-06-23 12:57:37,949 P17355 INFO Test -- f1:0.8395,rc:0.8493,pc:0.8300,time:18.1300,loss:0.2259
+2022-06-23 12:59:37,341 P17355 INFO Epoch 30/50, training loss with real & pseudo labels: 0.12761 [119.39s]
+2022-06-23 12:59:55,332 P17355 INFO Test -- f1:0.8394,rc:0.8434,pc:0.8355,time:17.9350,loss:0.2431
+2022-06-23 13:01:55,278 P17355 INFO Epoch 31/50, training loss with real & pseudo labels: 0.12653 [119.95s]
+2022-06-23 13:02:13,306 P17355 INFO Test -- f1:0.8442,rc:0.8293,pc:0.8596,time:17.9580,loss:0.2267
+2022-06-23 13:04:14,149 P17355 INFO Epoch 32/50, training loss with real & pseudo labels: 0.12796 [120.84s]
+2022-06-23 13:04:32,188 P17355 INFO Test -- f1:0.8487,rc:0.8637,pc:0.8342,time:17.9770,loss:0.2432
+2022-06-23 13:06:31,976 P17355 INFO Epoch 33/50, training loss with real & pseudo labels: 0.12712 [119.79s]
+2022-06-23 13:06:50,139 P17355 INFO Test -- f1:0.8469,rc:0.8596,pc:0.8345,time:18.1060,loss:0.2915
+2022-06-23 13:08:49,969 P17355 INFO Epoch 34/50, training loss with real & pseudo labels: 0.12626 [119.83s]
+2022-06-23 13:09:08,015 P17355 INFO Test -- f1:0.8472,rc:0.8490,pc:0.8455,time:17.9820,loss:0.2212
+2022-06-23 13:11:07,871 P17355 INFO Epoch 35/50, training loss with real & pseudo labels: 0.12618 [119.85s]
+2022-06-23 13:11:26,171 P17355 INFO Test -- f1:0.8497,rc:0.8496,pc:0.8498,time:18.2365,loss:0.2396
+2022-06-23 13:13:25,930 P17355 INFO Epoch 36/50, training loss with real & pseudo labels: 0.12451 [119.76s]
+2022-06-23 13:13:43,857 P17355 INFO Test -- f1:0.8445,rc:0.8396,pc:0.8496,time:17.7927,loss:0.2612
+2022-06-23 13:15:43,450 P17355 INFO Epoch 37/50, training loss with real & pseudo labels: 0.12751 [119.59s]
+2022-06-23 13:16:01,661 P17355 INFO Test -- f1:0.8526,rc:0.8734,pc:0.8327,time:18.1558,loss:0.2558
+2022-06-23 13:18:00,974 P17355 INFO Epoch 38/50, training loss with real & pseudo labels: 0.12524 [119.31s]
+2022-06-23 13:18:19,229 P17355 INFO Test -- f1:0.8460,rc:0.8743,pc:0.8195,time:18.1174,loss:0.2792
+2022-06-23 13:20:19,187 P17355 INFO Epoch 39/50, training loss with real & pseudo labels: 0.12157 [119.96s]
+2022-06-23 13:20:37,244 P17355 INFO Test -- f1:0.8519,rc:0.8537,pc:0.8502,time:17.9523,loss:0.2637
+2022-06-23 13:22:37,161 P17355 INFO Epoch 40/50, training loss with real & pseudo labels: 0.12964 [119.92s]
+2022-06-23 13:22:55,220 P17355 INFO Test -- f1:0.8485,rc:0.8540,pc:0.8431,time:17.9265,loss:0.2185
+2022-06-23 13:24:55,621 P17355 INFO Epoch 41/50, training loss with real & pseudo labels: 0.12873 [120.40s]
+2022-06-23 13:25:13,407 P17355 INFO Test -- f1:0.8482,rc:0.8569,pc:0.8396,time:17.7308,loss:0.2080
+2022-06-23 13:27:13,784 P17355 INFO Epoch 42/50, training loss with real & pseudo labels: 0.12627 [120.38s]
+2022-06-23 13:27:31,647 P17355 INFO Test -- f1:0.8512,rc:0.8605,pc:0.8421,time:17.7986,loss:0.2415
+2022-06-23 13:29:31,984 P17355 INFO Epoch 43/50, training loss with real & pseudo labels: 0.12335 [120.34s]
+2022-06-23 13:29:49,396 P17355 INFO Test -- f1:0.8450,rc:0.8575,pc:0.8328,time:17.3467,loss:0.2502
+2022-06-23 13:31:49,331 P17355 INFO Epoch 44/50, training loss with real & pseudo labels: 0.12492 [119.93s]
+2022-06-23 13:32:07,524 P17355 INFO Test -- f1:0.8489,rc:0.8714,pc:0.8275,time:18.1312,loss:0.2554
+2022-06-23 13:34:07,293 P17355 INFO Epoch 45/50, training loss with real & pseudo labels: 0.12227 [119.77s]
+2022-06-23 13:34:25,445 P17355 INFO Test -- f1:0.8468,rc:0.8452,pc:0.8484,time:18.0971,loss:0.2552
+2022-06-23 13:36:24,898 P17355 INFO Epoch 46/50, training loss with real & pseudo labels: 0.12464 [119.45s]
+2022-06-23 13:36:43,054 P17355 INFO Test -- f1:0.8474,rc:0.8678,pc:0.8279,time:18.0910,loss:0.2841
+2022-06-23 13:38:42,818 P17355 INFO Epoch 47/50, training loss with real & pseudo labels: 0.12360 [119.76s]
+2022-06-23 13:39:00,974 P17355 INFO Test -- f1:0.8359,rc:0.8602,pc:0.8130,time:18.0197,loss:0.2360
+2022-06-23 13:41:00,426 P17355 INFO Epoch 48/50, training loss with real & pseudo labels: 0.12413 [119.45s]
+2022-06-23 13:41:18,546 P17355 INFO Test -- f1:0.8482,rc:0.8652,pc:0.8319,time:18.0631,loss:0.2398
+2022-06-23 13:43:18,068 P17355 INFO Epoch 49/50, training loss with real & pseudo labels: 0.12108 [119.52s]
+2022-06-23 13:43:36,220 P17355 INFO Test -- f1:0.8410,rc:0.8416,pc:0.8404,time:18.0852,loss:0.2326
+2022-06-23 13:43:54,570 P17355 INFO Test -- f1:0.8640,rc:0.8696,pc:0.8585,time:18.1902,loss:0.2018
+2022-06-23 13:43:54,571 P17355 INFO *** Test F1 0.8640 and loss 0.2018 of traning phase 2
+2022-06-23 13:43:54,571 P17355 INFO Best f1 got at in epoch 73: test f1 0.8640
+2022-06-23 13:43:54,842 P17355 INFO Current hash id 45e4c981
