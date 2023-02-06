@@ -4,18 +4,13 @@
 ![](https://img.shields.io/badge/language-python-orange.svg)
 
 ****
-Here is a repo for our submission *Heterogeneous Anomaly Detection for Software Systems via Semi-supervised Cross-modal Attention* for ICSE 2023.
+Here is a repo for our paper published at ICSE 2023: *Heterogeneous Anomaly Detection for Software Systems via Semi-supervised Cross-modal Attention*.
 
 ## Architecture
 ![arch 001](https://user-images.githubusercontent.com/108742116/190979759-7e3ef203-3e1e-463b-9281-69b747b9486a.jpeg)
 
 ## Data
-Our processed data are in the `data` directory and you may want to visit the raw data in `preprocess/raw_data`.
-
-<details>
-<summary>Sample</summary>
-['edajgJf0': {'kpis': array([[-0.2446358, 0.40761607, ..., -0.11197388, -0.19489101], [-0.12524459, 0.34657824, ..., -0.11210638, -0.19490469], [ 0.04298847, 0.73634838, ..., -0.11170622, -0.19489621], ]]), 'logs': ['Registered signal handler for <*>', 'Registered signal handler for <*>', 'Registered signal handler for <*>', 'Changing <*> acls to: root', 'Changing <*> acls to: root', 'Changing <*> acls groups to:', 'Changing <*> acls groups to:', 'SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(root); groups with view permissions: Set(); users with modify permissions: Set(root); groups with modify permissions: Set()', 'ApplicationAttemptId: <*>', 'Connecting to ResourceManager at slave1/172.17.0.3:8030', 'Registering the ApplicationMaster', 'Successfully created connection to <*> after <*> ms (0 ms spent in bootstraps)', 'Preparing Local resources', 'Will request 2 executor container(s), each with 4 core(s) and 4505 MB memory (including 409 MB of overhead)', 'Submitted 2 unlocalized container requests.', 'Started progress reporter thread with (heartbeat : 3000, initial allocation : 200) intervals', ...], 'kpi_label': 0, 'log_label': 0, 'label': 0},...]
-</details>
+Our data are at 10.5281/zenodo.7609780.
 
 ## Tree
 ```
@@ -70,6 +65,3 @@ Note that we currently provide a demo dataset. We will release all the data afte
 
 ## Preview
 ![preview 001](https://user-images.githubusercontent.com/108742116/190979242-4d1024cc-4cac-476d-9a25-c6fd1a05be31.jpeg)
-
-## TODO
-* We will open up a website as a lightweight tool for users. 
