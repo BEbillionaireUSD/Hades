@@ -38,24 +38,15 @@ We support python3.x $\geq$ 3.7. The environment can be built by:
 │   │   └── utils.py
 │   └── run.py
 ├── data
-│   └── chunk_10_demo
+│   └── chunk_10
 │       ├── test.pkl
 │       ├── train.pkl
 │       └── unlabel.pkl
 ├── preprocess
 │   ├── README.md
 │   ├── get_chunks.py
-│   ├── raw_data
-│   │   ├── meta_info.json
-│   │   └── raw_csvs
-│   │       └── README.md
 │   └── split_data.py
 ├── requirements.txt
-├── result
-│   └── final_res
-│       ├── model.ckpt
-│       ├── params.json
-│       └── running.log
 ```
 
 ## Result
