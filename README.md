@@ -6,11 +6,18 @@
 ****
 Here is a repo for our paper published at ICSE 2023: *Heterogeneous Anomaly Detection for Software Systems via Semi-supervised Cross-modal Attention*.
 
-## Architecture
-![arch 001](https://user-images.githubusercontent.com/108742116/190979759-7e3ef203-3e1e-463b-9281-69b747b9486a.jpeg)
-
 ## Data
 Our data are at 10.5281/zenodo.7609780.
+
+## Environment
+We support python3.x $\geq$ 3.7. The environment can be built by:
+```$ pip install -r requirements.txt```
+
+## Reproducing 
+```$ cd codes && python run.py --data ../data/chunk_10```
+
+## Architecture
+![arch 001](https://user-images.githubusercontent.com/108742116/190979759-7e3ef203-3e1e-463b-9281-69b747b9486a.jpeg)
 
 ## Tree
 ```
@@ -51,17 +58,8 @@ Our data are at 10.5281/zenodo.7609780.
 │       └── running.log
 ```
 
-## Environment
-We support python3.x $\geq$ 3.7. The environment can be built by:
-```$ pip install -r requirements.txt```
-
 ## Result
 The trained model and the final result records are in the `result` directory.
-
-## Reproducing 
-```$ cd codes && python run.py --data ../data/chunk_10_demo```
-
-Note that we currently provide a demo dataset. We will release all the data after double-anonymous review. If you want the whole data, please leave a message with your contact information in Issues and we will contact you ASAP.
 
 ## Preview
 ![preview 001](https://user-images.githubusercontent.com/108742116/190979242-4d1024cc-4cac-476d-9a25-c6fd1a05be31.jpeg)
