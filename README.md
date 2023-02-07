@@ -7,7 +7,7 @@
 Here is a repo for our paper published at ICSE 2023: *Heterogeneous Anomaly Detection for Software Systems via Semi-supervised Cross-modal Attention*.
 
 ## Data
-Our data are at \url{https://doi.org/10.5281/zenodo.7609780}.
+Our data are at https://doi.org/10.5281/zenodo.7609780.
 
 ## Environment
 We support python3.x $\geq$ 3.7. The environment can be built by:
