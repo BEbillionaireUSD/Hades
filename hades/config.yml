@@ -1,0 +1,17 @@
+searchSpaceFile: search_space.json #create a json file to specify your searching space, see https://nni.readthedocs.io/zh/stable/index.html for using nni
+trialCommand: python run.py --data ../chunk_10
+trialGpuNumber: 1
+trialConcurrency: 2
+maxExperimentDuration: 48h
+maxTrialNumber: 200
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: True
+assessor:
+  name: 'Medianstop'
+  classArgs:
+    start_step: 10
