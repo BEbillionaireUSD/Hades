@@ -12,7 +12,7 @@ parser.add_argument("--supervised", action="store_true")
 parser.add_argument("--gpu", default=True, type=lambda x: x.lower() == "true")
 parser.add_argument("--epoches", default=[50, 50], type=int, nargs='+')
 parser.add_argument("--batch_size", default=128, type=int)
-parser.add_argument("--confidence", default=0.93, type=float)
+parser.add_argument("--confidence", default=0.92, type=float)
 parser.add_argument("--alpha", default=0.5, type=float)
 parser.add_argument("--learning_rate", default=0.001, type=float)
 parser.add_argument("--patience", default=10, type=int)
@@ -33,13 +33,13 @@ parser.add_argument("--attention_type", default="general", choices=["general", "
 
 ### Kpi params
 parser.add_argument("--kpi_architect", default="by_aspect", type=str, choices=["by_aspect", "by_metric"])
-parser.add_argument("--temporal_kernel_sizes", default=[5, 2], type=int, nargs='+')
+parser.add_argument("--temporal_kernel_sizes", default=[2, 2], type=int, nargs='+')
 parser.add_argument("--temporal_hidden_sizes", default=[64, 4], type=int, nargs='+')
 parser.add_argument("--temporal_dropout", default=0, type=float)
 parser.add_argument("--pooling", default=True, type=lambda x: x.lower() == "true")
 # Inner params
-parser.add_argument("--inner_hidden_sizes", default=[512, 256, 256], type=int, nargs='+')
-parser.add_argument("--inner_kernel_sizes", default=[3, 30, 30], type=int, nargs='+')
+parser.add_argument("--inner_hidden_sizes", default=[256, 256, 256], type=int, nargs='+')
+parser.add_argument("--inner_kernel_sizes", default=[3, 3, 3], type=int, nargs='+')
 parser.add_argument("--inner_dropout", default=0.5, type=float)
 
 ### Log params
