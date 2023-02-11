@@ -16,6 +16,8 @@ We support python3.x $\geq$ 3.7. The environment can be built by:
 ## Reproducing 
 ```$ cd codes && python run.py --data ../data/chunk_10```
 
+Thanks to nni (https://nni.readthedocs.io/zh/stable/index.html), we can automate hyper-parameter tuning.
+
 ## Architecture
 ![arch 001](https://user-images.githubusercontent.com/108742116/190979759-7e3ef203-3e1e-463b-9281-69b747b9486a.jpeg)
 
