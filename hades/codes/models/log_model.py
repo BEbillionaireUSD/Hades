@@ -24,7 +24,7 @@ class LogEncoder(nn.Module):
             seq_re = self.net(session[:, w, :, :])
             if self.self_attention: log_re[:, w, :] = self.attn(seq_re)
             else: log_re[:, w, :] = seq_re[:, -1, :]
-            log_re[:, w, :] = seq_re[:, -1, :]
+    
         return log_re #[batch_size, window_size, hidden_size]
 
 from torch.nn.functional import softmax as sf
