@@ -85,7 +85,7 @@ class KpiEncoder(nn.Module):
             self.i_encoder = InnerEncoder(self.group_num * self.temporal_dim, device, **kwargs)
         
         elif self.kpi_type == "by_metric":
-            self.t_encoders = [TemporalEncoder(device, **kwargs) for _ in range(self.metric_num)]
+            self.t_encoders = [TemporalEncoder(device, 1, **kwargs) for _ in range(self.metric_num)]
             self.i_encoder = InnerEncoder(self.metric_num, device, **kwargs)
             self.temporal_dim = self.t_encoders[0].temporal_dim
         
